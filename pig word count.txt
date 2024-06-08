@@ -1,0 +1,26 @@
+
+Pig script for  word count :
+
+
+
+1. Load the data from the input.txt file:
+
+data = LOAD 'pig.txt' AS (line:chararray);
+
+
+
+2. Tokenize the lines to split them into words:
+
+words = FOREACH data GENERATE FLATTEN(TOKENIZE(line)) AS word;
+
+
+3. Group and count the words:
+
+group_words = GROUP words BY word;
+
+word_count = FOREACH group_words GENERATE group, COUNT(words);
+
+
+4 Display the word count results:
+DUMP word_count;
+
