@@ -1,0 +1,29 @@
+Field Field Name Description
+1 EVENT_UNIQUE_ID Offence Number
+2 REPORT_DATE Date Offence was Reported (time is displayed in UTC format when downloaded as a CSV)
+3 OCC_DAT  Date Offence Occurred (time is displayed in UTC format when downloaded as a CSV)
+4 REPORT_YEAR Year Offence was Reported
+5 REPORT_MONTH Month Offence was Reported
+6 REPORT_DAY Day of the Month Offence was Reported
+7 REPORT_DOY Day of the Year Offence was Reported
+8 REPORT_DOW Day of the Week Offence was Reported
+9 REPORT_HOUR Hour Offence was Reported
+10 OCC_YEAR Year Offence Occurred
+11 OCC_MONTH Month Offence Occurred
+12 OCC_DAY Day of the Month Offence Occurred
+13 OCC_DOY Day of the Year Offence Occurred
+14 OCC_DOW Day of the Week Offence Occurred
+15 OCC_HOUR Hour Offence Occurred
+16 DIVISION Police Division where Offence Occurred
+17 LOCATION_TYPE Location Type of Offence
+18 PREMISES_TYPE Premises Type of Offence
+19 UCR_CODE UCR Code for Offence
+20 UCR_EXT UCR Extension for Offence
+21 OFFENCE Title of Offence
+22 MCI_CATEGORY MCI Category of Occurrence
+23 HOOD_158  Identifier of Neighbourhood using City of Toronto's new 158 neighbourhood structure
+24 NEIGHBOURHOOD_158  Name of Neighbourhood using City of Toronto's new 158 neighbourhood structure
+25 HOOD_140  Identifier of Neighbourhood using City of Toronto's old 140 neighbourhood structure
+26 NEIGHBOURHOOD_140  Name of Neighbourhood using City of Toronto's old 140 neighbourhood structure
+27 LONG_WGS84 Longitude Coordinates (Offset to nearest intersection)
+28 LAT_WGS84 Latitude Coordinates (Offset to nearest intersection)
